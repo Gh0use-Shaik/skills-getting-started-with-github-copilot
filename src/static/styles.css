@@ -70,6 +70,49 @@ section h3 {
   color: #0066cc;
 }
 
+.participants-list {
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+  color: #444;
+}
+
+.participants-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.participant-email {
+  word-break: break-word;
+  color: #333;
+}
+
+.participant-remove {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0 6px;
+}
+
+.participant-remove:hover {
+  color: #b71c1c;
+}
+
+.participants-empty {
+  margin: 6px 0 0;
+  color: #666;
+  font-style: italic;
+}
+
 .activity-card p {
   margin-bottom: 8px;
 }
